@@ -1,0 +1,35 @@
+{
+  "name": "@s1mpson/prettier-config",
+  "version": "1.0.0",
+  "description": "Shareable Prettier config for my projects to produce neat and readable code",
+  "main": ".prettierrc.json",
+  "files": [
+    ".prettierrc.json"
+  ],
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/s1mpson/prettier-config.git"
+  },
+  "keywords": [
+    "prettier-config",
+    "prettierrc",
+    "prettier",
+    "shared-config",
+    "shareable-config",
+    "config",
+    "configuration"
+  ],
+  "author": {
+    "name": "Max Mykhalchuk",
+    "email": "s1mpsondevs@gmail.com",
+    "url": "https://s1mpson.dev/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/s1mpson/prettier-config/issues"
+  },
+  "homepage": "https://github.com/s1mpson/prettier-config#readme"
+}
