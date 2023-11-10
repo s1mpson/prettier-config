@@ -1,6 +1,6 @@
 {
   "name": "@s1mpson/prettier-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Shareable Prettier config for my projects to produce neat and readable code",
   "main": ".prettierrc.json",
   "files": [
