@@ -1,6 +1,6 @@
 {
   "name": "@s1mpson/prettier-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Shareable Prettier config for my projects to produce neat and readable code",
   "license": "MIT",
   "main": "prettier.config.js",
