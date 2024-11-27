@@ -2,6 +2,7 @@
   "name": "@s1mpson/prettier-config",
   "version": "1.0.1",
   "description": "Shareable Prettier config for my projects to produce neat and readable code",
+  "license": "MIT",
   "main": "prettier.config.js",
   "files": [
     "prettier.config.js"
@@ -22,12 +23,7 @@
     "config",
     "configuration"
   ],
-  "author": {
-    "name": "Max Mykhalchuk",
-    "email": "s1mpsondevs@gmail.com",
-    "url": "https://s1mpson.dev/"
-  },
-  "license": "MIT",
+  "author": "Max Mykhalchuk <s1mpsondevs@gmail.com> (https://s1mpson.dev)",
   "bugs": {
     "url": "https://github.com/s1mpson/prettier-config/issues"
   },
