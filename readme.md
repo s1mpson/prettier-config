@@ -36,7 +36,7 @@ Now, you just need to reference this module as your Prettier configuration.
 ```jsonc
 {
   // ...
-  "prettier": "@s1mpson/prettier-config"
+  "prettier": "@s1mpson/prettier-config",
 }
 ```
 
@@ -44,6 +44,26 @@ Now, you just need to reference this module as your Prettier configuration.
 
 ```jsonc
 "@s1mpson/prettier-config"
+```
+
+- Or by creating `prettier.config.js` file to be able to override any of the Prettier properties. For JSDoc type safety to work, you need to install "prettier" as a **dev** dependency via `npm install -D prettier`:
+
+```js
+import baseConfig from '@s1mpson/prettier-config'
+
+/**
+ * @type {import("prettier").Config}
+ */
+const config = {
+  ...baseConfig,
+  // Override any of the Prettier properties here:
+  // singleQuote: false,
+}
+
+// If you rock ESM modules ("type": "module" in your package.json):
+export default config
+// Or, if you're using CommonJS:
+// module.exports = config
 ```
 
 Voilà! You now have a working Prettier configuration!
