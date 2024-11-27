@@ -2,9 +2,9 @@
   "name": "@s1mpson/prettier-config",
   "version": "1.0.1",
   "description": "Shareable Prettier config for my projects to produce neat and readable code",
-  "main": ".prettierrc.json",
+  "main": "prettier.config.js",
   "files": [
-    ".prettierrc.json"
+    "prettier.config.js"
   ],
   "scripts": {
     "test": "exit 0"
@@ -31,5 +31,11 @@
   "bugs": {
     "url": "https://github.com/s1mpson/prettier-config/issues"
   },
-  "homepage": "https://github.com/s1mpson/prettier-config#readme"
+  "homepage": "https://github.com/s1mpson/prettier-config#readme",
+  "peerDependencies": {
+    "prettier": ">=3.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.4.1"
+  }
 }
