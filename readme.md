@@ -8,10 +8,10 @@
 
 ## Highlights
 
-- Prints single quotes instead of double quotes (_including inside of JSX_)
+- Prints double quotes instead of single quotes (_including inside of JSX_) — MUCH less character escaping
 - Prints trailing commas where possible (_excluding function parameters and calls_)
 - Prints single attribute per line in HTML, Vue and JSX
-- Removes semicolons at the ends of statements
+- Adds semicolons at the ends of statements — _This proved to be a great visual cue_
 
 ## Install
 
@@ -49,7 +49,7 @@ Now, you just need to reference this module as your Prettier configuration.
 - Or by creating `prettier.config.js` file to be able to override any of the Prettier properties. For JSDoc type safety to work, you need to install "prettier" as a **dev** dependency via `npm install -D prettier`:
 
 ```js
-import baseConfig from '@s1mpson/prettier-config'
+import baseConfig from "@s1mpson/prettier-config";
 
 /**
  * @type {import("prettier").Config}
@@ -58,10 +58,10 @@ const config = {
   ...baseConfig,
   // Override any of the Prettier properties here:
   // singleQuote: false,
-}
+};
 
 // If you rock ESM modules ("type": "module" in your package.json):
-export default config
+export default config;
 // Or, if you're using CommonJS:
 // module.exports = config
 ```
